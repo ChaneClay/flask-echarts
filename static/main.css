@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+     background: #666666;
+}
+#title{
+    position: absolute;
+	width: 40%;
+	height: 10%;
+	top: 5%;
+	left: 30%;
+
+	color: white;
+	font-size: 50px;
+
+	display: flex;      /*文字在div里居中*/
+	align-items: center;
+	justify-content: center;
+}
+#center{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    left: 30%;
+    top: 18%;
+    color: white;
+    /*background-color: #fffebe;*/
+
+    display: flex;      /*文字在div里居中*/
+	align-items: center;
+	justify-content: center;
+}
+
+#left-1{
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    left: 0%;
+    top: 18%;
+    /*background-color: #fffebe;*/
+
+    display: flex;      /*文字在div里居中*/
+	align-items: center;
+	justify-content: center;
+}
+
+#right-1{
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    right: 0;
+    top: 18%;
+    /*background-color: #fffebe;*/
+
+    display: flex;      /*文字在div里居中*/
+	align-items: center;
+	justify-content: center;
+}
